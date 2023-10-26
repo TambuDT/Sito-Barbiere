@@ -1,0 +1,41 @@
+.about-wrap{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #c7c7c7;
+    flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.right{
+    filter: grayscale();
+    flex: 1;
+    background-image: url('../assets/right-about.jpg');
+    background-size: cover;
+}
+.title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+.description{
+    max-width: 700px;
+    padding: 20px;
+}
+.sub-title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+.tabella-orari{
+padding: 20px;
+}
+.tabella-orari tr td{
+    padding: 10px;
+}
+

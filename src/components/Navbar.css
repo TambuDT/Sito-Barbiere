@@ -1,0 +1,36 @@
+.navbar{
+    position: fixed;
+    z-index: 100;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: rgba(0, 0, 0, 0.794);
+    width: 100vw;
+    height: 80px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 30px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.nav-items{
+    margin: 30px;
+    color: white;
+}
+.nav-items:hover{
+    color: #ffdc73;
+    cursor: pointer;
+}
+.mini-logo{
+    color: #ffdc73;
+    position: inherit;
+    left: 40px;
+}
+
+@media screen and (max-width: 800px){
+    .navbar{
+        display: none;
+    }
+}
