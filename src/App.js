@@ -7,11 +7,13 @@ import Products from './components/Products';
 import Maps from './components/Maps';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
+import SidebarOpenButton from './components/SidebarOpenButton';
 
 function App() {
   return (
     <div className='App'>
     <Navbar></Navbar>
+    <SidebarOpenButton></SidebarOpenButton>
     <Sidebar></Sidebar>
     <Header></Header>
     <About></About>
